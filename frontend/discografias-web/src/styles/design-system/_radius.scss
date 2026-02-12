@@ -1,0 +1,14 @@
+$radius-xs: 2px; // inputs, subtle elements
+$radius-sm: 4px; // buttons, small cards
+$radius-md: 8px; // cards, containers
+$radius-lg: 12px; // modals, highlighted sections
+$radius-pill: 999px; // chips, pills
+
+:root {
+  /* Border radius */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+}

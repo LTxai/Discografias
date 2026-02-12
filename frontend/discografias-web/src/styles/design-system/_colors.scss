@@ -1,0 +1,96 @@
+// ----------
+// Brand Colors
+// ----------
+
+$color-primary-900: #4a0f1a; // darkest wine
+$color-primary-700: #7a1e2d; // base wine (primary)
+$color-primary-500: #a63a4a; // lighter accent
+$color-primary-300: #d98a94; // soft / background accents
+
+$color-secondary-900: #7a5a1e; // dark amber
+$color-secondary-700: #d4a24c; // base amber (secondary)
+$color-secondary-500: #e6be6a; // hover / highlights
+$color-secondary-300: #f2d9a6; // soft accent
+
+// ----------
+// Neutral — Dark (default background)
+// ----------
+
+$color-dark-900: #0d0d0d; // near black
+$color-dark-800: #121212; // main dark background
+$color-dark-700: #1e1e1e; // surfaces / cards
+$color-dark-600: #2a2a2a; // borders / dividers
+
+// ----------
+// Neutral — Light
+// ----------
+
+$color-light-100: #ffffff; // pure white (rare use)
+$color-light-200: #f5f3ef; // main light background
+$color-light-300: #e6e4df; // borders / subtle contrast
+$color-light-400: #cfcbc3; // muted elements
+
+// ----------
+// Text Colors
+// ----------
+
+$text-primary-dark: #f5f3ef; // text on dark background
+$text-secondary-dark: #b3b0aa;
+
+$text-primary-light: #1e1e1e; // text on light background
+$text-secondary-light: #5f5c57;
+
+// ----------
+// Feedback (minimal, optional)
+// ----------
+
+$color-success: #4caf50;
+$color-warning: #e6a23c;
+$color-error: #c0392b;
+
+// ----------
+// Utility
+// ----------
+
+$color-divider-dark: rgba(255, 255, 255, 0.08);
+$color-divider-light: rgba(0, 0, 0, 0.08);
+
+:root {
+  /* Brand */
+  --color-primary-900: #{$color-primary-900};
+  --color-primary-700: #{$color-primary-700};
+  --color-primary-500: #{$color-primary-500};
+  --color-primary-300: #{$color-primary-300};
+
+  --color-secondary-900: #{$color-secondary-900};
+  --color-secondary-700: #{$color-secondary-700};
+  --color-secondary-500: #{$color-secondary-500};
+  --color-secondary-300: #{$color-secondary-300};
+
+  /* Dark neutrals */
+  --color-dark-900: #{$color-dark-900};
+  --color-dark-800: #{$color-dark-800};
+  --color-dark-700: #{$color-dark-700};
+  --color-dark-600: #{$color-dark-600};
+
+  /* Light neutrals */
+  --color-light-100: #{$color-light-100};
+  --color-light-200: #{$color-light-200};
+  --color-light-300: #{$color-light-300};
+  --color-light-400: #{$color-light-400};
+
+  /* Text */
+  --text-primary-dark: #{$text-primary-dark};
+  --text-secondary-dark: #{$text-secondary-dark};
+  --text-primary-light: #{$text-primary-light};
+  --text-secondary-light: #{$text-secondary-light};
+
+  /* Feedback */
+  --color-success: #{$color-success};
+  --color-warning: #{$color-warning};
+  --color-error: #{$color-error};
+
+  /* Utility */
+  --color-divider-dark: #{$color-divider-dark};
+  --color-divider-light: #{$color-divider-light};
+}

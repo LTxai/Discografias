@@ -1,0 +1,45 @@
+// Base unit
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 12px;
+$space-4: 16px;
+$space-5: 24px;
+$space-6: 32px;
+$space-7: 48px;
+$space-8: 64px;
+
+// Semantic aliases (optional, but powerful)
+$space-xs: $space-1;
+$space-sm: $space-2;
+$space-md: $space-4;
+$space-lg: $space-6;
+$space-xl: $space-8;
+
+// Layout-specific
+$layout-padding: $space-6;
+$card-padding: $space-4;
+$section-spacing: $space-7;
+
+:root {
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Semantic spacing */
+  --space-xs: var(--space-1);
+  --space-sm: var(--space-2);
+  --space-md: var(--space-4);
+  --space-lg: var(--space-6);
+  --space-xl: var(--space-8);
+
+  /* Layout spacing */
+  --layout-padding: var(--space-6);
+  --card-padding: var(--space-4);
+  --section-spacing: var(--space-7);
+}

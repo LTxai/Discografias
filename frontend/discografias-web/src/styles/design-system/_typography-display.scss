@@ -1,0 +1,96 @@
+// ----------
+// Font Family
+// ----------
+
+$font-family-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+// ----------
+// Font Weights
+// ----------
+
+$font-weight-display-regular: 400;
+$font-weight-display-semibold: 600;
+$font-weight-display-bold: 700;
+
+// ----------
+// Font Sizes
+// ----------
+
+$display-size-sm: 28px; // band names, highlights
+$display-size-md: 32px; // section titles
+$display-size-lg: 40px; // page / hero titles
+
+// ----------
+// Line Heights
+// ----------
+
+$display-line-height-tight: 1.15;
+$display-line-height-normal: 1.25;
+
+// ----------
+// Semantic Display Tokens
+// ----------
+
+// Page / Hero Title
+$text-display-hero-font-family: $font-family-display;
+$text-display-hero-font-size: $display-size-lg;
+$text-display-hero-font-weight: $font-weight-display-bold;
+$text-display-hero-line-height: $display-line-height-tight;
+
+// Section Title
+$text-display-section-font-family: $font-family-display;
+$text-display-section-font-size: $display-size-md;
+$text-display-section-font-weight: $font-weight-display-semibold;
+$text-display-section-line-height: $display-line-height-tight;
+
+// Band Name / Highlight
+$text-display-band-font-family: $font-family-display;
+$text-display-band-font-size: $display-size-sm;
+$text-display-band-font-weight: $font-weight-display-regular;
+$text-display-band-line-height: $display-line-height-normal;
+
+/* ==============================
+   Display Classes
+   ============================== */
+
+.display-sm-regular {
+  font-family: var(--font-family-display);
+  font-size: var(--display-size-sm);
+  font-weight: var(--font-weight-display-regular);
+  line-height: var(--display-line-height-normal);
+}
+
+.display-sm-semibold {
+  font-family: var(--font-family-display);
+  font-size: var(--display-size-sm);
+  font-weight: var(--font-weight-display-semibold);
+  line-height: var(--display-line-height-normal);
+}
+
+.display-md-regular {
+  font-family: var(--font-family-display);
+  font-size: var(--display-size-md);
+  font-weight: var(--font-weight-display-regular);
+  line-height: var(--display-line-height-tight);
+}
+
+.display-md-semibold {
+  font-family: var(--font-family-display);
+  font-size: var(--display-size-md);
+  font-weight: var(--font-weight-display-semibold);
+  line-height: var(--display-line-height-tight);
+}
+
+.display-lg-regular {
+  font-family: var(--font-family-display);
+  font-size: var(--display-size-lg);
+  font-weight: var(--font-weight-display-regular);
+  line-height: var(--display-line-height-tight);
+}
+
+.display-lg-bold {
+  font-family: var(--font-family-display);
+  font-size: var(--display-size-lg);
+  font-weight: var(--font-weight-display-bold);
+  line-height: var(--display-line-height-tight);
+}

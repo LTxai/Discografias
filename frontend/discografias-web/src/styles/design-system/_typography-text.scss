@@ -1,0 +1,147 @@
+// ----------
+// Font Families
+// ----------
+
+$font-family-base: 'Inter', system-ui, sans-serif;
+
+// ----------
+// Font Weights (Inter Variable)
+// ----------
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// ----------
+// Font Sizes
+// ----------
+
+$font-size-xs: 12px; // captions, helper text
+$font-size-sm: 14px; // secondary text
+$font-size-md: 16px; // body (base)
+$font-size-lg: 20px; // small headings
+$font-size-xl: 24px; // section titles
+$font-size-xxl: 32px; // page titles
+
+// ----------
+// Line Heights
+// ----------
+
+$line-height-tight: 1.2;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.7;
+
+// ----------
+// Semantic Text Tokens
+// ----------
+
+// Body text
+$text-body-font-size: $font-size-md;
+$text-body-font-weight: $font-weight-regular;
+$text-body-line-height: $line-height-normal;
+
+// Secondary / muted text
+$text-secondary-font-size: $font-size-sm;
+$text-secondary-font-weight: $font-weight-regular;
+$text-secondary-line-height: $line-height-normal;
+
+// Captions / helper
+$text-caption-font-size: $font-size-xs;
+$text-caption-font-weight: $font-weight-regular;
+$text-caption-line-height: $line-height-tight;
+
+// Headings (generic, Inter)
+$heading-font-family: $font-family-base;
+
+$heading-h1-font-size: $font-size-xxl;
+$heading-h1-font-weight: $font-weight-semibold;
+$heading-h1-line-height: $line-height-tight;
+
+$heading-h2-font-size: $font-size-xl;
+$heading-h2-font-weight: $font-weight-semibold;
+$heading-h2-line-height: $line-height-tight;
+
+$heading-h3-font-size: $font-size-lg;
+$heading-h3-font-weight: $font-weight-medium;
+$heading-h3-line-height: $line-height-tight;
+
+// ----------
+// UI Specific
+// ----------
+
+$button-font-size: $font-size-md;
+$button-font-weight: $font-weight-medium;
+
+$label-font-size: $font-size-sm;
+$label-font-weight: $font-weight-medium;
+
+$input-font-size: $font-size-md;
+$input-font-weight: $font-weight-regular;
+
+/* ==============================
+   Text Classes
+   ============================== */
+
+.text-xs-regular {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-tight);
+}
+
+.text-sm-regular {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.text-sm-medium {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.text-md-regular {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+}
+
+.text-md-medium {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+}
+
+.text-md-semibold {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-normal);
+}
+
+.text-lg-medium {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+}
+
+.text-xl-semibold {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+}
+
+.text-xxl-semibold {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+}
