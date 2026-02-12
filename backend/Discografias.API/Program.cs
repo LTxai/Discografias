@@ -1,9 +1,9 @@
-using Discografias.Services;
+using Discografias.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddSingleton<BandaService>();
+builder.Services.AddSingleton<BandService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
