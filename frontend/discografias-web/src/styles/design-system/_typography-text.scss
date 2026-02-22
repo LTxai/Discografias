@@ -200,6 +200,13 @@ $input-font-weight: $font-weight-regular;
   line-height: var(--line-height-tight);
 }
 
+.text-lg-semibold {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+}
+
 .text-xl-semibold {
   font-family: var(--font-family-base);
   font-size: var(--font-size-xl);
