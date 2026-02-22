@@ -30,4 +30,20 @@ export class BandsStore {
       },
     });
   }
+
+  createBand(band: Band): void {
+    this._loading.set(true);
+    this._error.set(null);
+
+    this.bandsService.postBand(band).subscribe({
+      next: (newBand) => {
+        this._bands.update((bands) => [...bands, newBand]);
+        this._loading.set(false);
+      },
+      error: () => {
+        this._error.set('Failed to create band. Please try again later.');
+        this._loading.set(false);
+      },
+    });
+  }
 }
