@@ -17,4 +17,13 @@ export class BandsService {
       }),
     );
   }
+
+  public postBand(band: Band): Observable<Band> {
+    return this.httpClient.post<Band>('http://localhost:5119/api/Bands', band).pipe(
+      catchError((error) => {
+        console.error('[BandsService] Failed to post band:', error);
+        return throwError(() => new Error('Failed to post band. Please try again later.'));
+      }),
+    );
+  }
 }
