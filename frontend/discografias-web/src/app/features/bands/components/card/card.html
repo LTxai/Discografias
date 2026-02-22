@@ -1,0 +1,8 @@
+<article [class]="
+  'card ' +
+  'card-' + variant()">
+  <section class="header"> <h2 class="display-sm-regular">{{ title() }}</h2></section>
+  <section class="body">
+    <ng-content [select]="'[' + title() + '-body]'"></ng-content>
+  </section>
+</article>

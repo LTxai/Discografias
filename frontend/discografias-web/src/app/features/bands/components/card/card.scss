@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-lg);
+  height: 100%;
+  width: 400px;
+  box-shadow: var(--shadow-md);
+
+  .header {
+    padding: var(--space-md) var(--space-lg);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  }
+
+  .body {
+    padding: var(--space-md) var(--space-lg);
+    flex: 1;
+  }
+
+  &-primary {
+    background-color: var(--color-primary-700);
+    color: var(--text-primary-dark);
+
+    .header {
+      background-color: var(--color-dark-600);
+    }
+  }
+
+  &-secondary {
+    background-color: var(--color-secondary-700);
+    color: var(--text-primary-light);
+
+    .header {
+      background-color: var(--color-light-400);
+    }
+  }
+}
