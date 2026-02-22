@@ -1,5 +1,6 @@
 import { Component, input } from '@angular/core';
 import { Band } from '../../../../core/models/band.model';
+import { COUNTRY_ICON_MAP } from '../../utils/country-icon.map';
 
 @Component({
   selector: 'app-card',
@@ -20,4 +21,8 @@ export class Card {
     songsCount: 0,
     score: 0,
   });
+
+  get countryIcon(): string | null {
+    return `/icons/flags/${COUNTRY_ICON_MAP[this.band().nationality]}` || null;
+  }
 }

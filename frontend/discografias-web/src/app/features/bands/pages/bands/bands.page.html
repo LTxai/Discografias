@@ -1,0 +1,14 @@
+<main class="page-container">
+  <header>
+    <h1 class="display-lg-bold">Bands I've listened to:</h1>
+    <h2 class="text-lg-semibold">A personal archive of complete discographies</h2>
+  </header>
+  <section class="page-body">
+    @for (band of bandsStore.bands(); track $index) {
+      <app-card [band]="band"></app-card>
+    }
+  </section>
+  <footer>
+    <span>Lucas Txai</span>
+  </footer>
+</main>
