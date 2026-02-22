@@ -21,7 +21,6 @@ export class BandsStore {
     this.bandsService.getBands().subscribe({
       next: (bands) => {
         this._bands.set(bands);
-        console.log('Bands:', this.bands());
         this._loading.set(false);
       },
       error: () => {
